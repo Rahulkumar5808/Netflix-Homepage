@@ -1,0 +1,231 @@
+*{   
+    color:white;
+    margin:0px;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page{
+    display: flex;
+
+}
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%;
+    position: absolute;
+    top:0px;
+}
+
+.logo{
+    padding:0;
+    height: 50px;
+    width: 160px;
+    margin:20px 0px 0px 100px ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;   
+}
+.list{
+    width: 100px;
+    height: 28px;
+    margin-top:30px;
+    text-align: center;
+    background-color: rgb(32, 31, 31);
+    border:0.5px solid rgb(160, 160, 160);
+    border-radius: 5px 5px 5px 5px;
+}
+.extra{
+    height:150px;
+    background-color: transparent;
+}
+.enter{
+    background-color: rgb(218, 23, 23);
+    margin-right: 140px;
+    margin-left: 20px;
+    width: 80px;
+    height: 28px;
+    border-radius: 5px 5px 5px 5px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head1{
+    font-size:3em;
+}
+.head2{
+    font-size: 2em;
+    font-weight:200px;
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.head3{
+    font-size:1.2em;
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.email{
+    background-color: rgb(22, 20, 20);
+    font-size:1em;
+    padding-left: 20px;
+    width: 320px;
+    height: 52px;
+    border:0.5px solid rgb(160, 160, 160);
+    border-radius: 5px 5px 5px 5px;
+}
+.started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 113px;
+}
+.enter1{
+    background-color: rgb(218, 23, 23);
+    margin-left: 10px;
+    font-size: 1.5em;
+    width: 160px;
+    height: 56px;
+    border-radius: 5px 5px 5px 5px;
+}
+.extra1{
+    height: 7px;
+    background-color: rgb(48, 42, 42);
+}
+.content{
+    display: flex;
+    height:450px;
+    width: 100%;
+    background-color: black;
+}
+.content1{
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.image{
+    margin-left: 100px;
+    margin-top:60px;
+}
+.img{
+    position: relative;
+    height:310px;
+    z-index: 2;
+}
+.video{
+    position:relative;
+    bottom: 250px;
+    left: 50px;
+    height: 180px;
+}
+.content2{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.box{
+    margin-left:150px;
+}
+.box2{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    background-color: black;
+    border:2px solid grey;
+    height: 100px;
+    border-radius: 15px 15px 15px 15px;
+    width: 300px;
+    bottom: 60px;
+    left:50px;
+}
+.img2{
+    height: 80px;
+    margin:10px 15px;
+}
+#strange{
+    position: relative;
+    top:20px;
+}
+#strange1{
+    color:blue;
+    position: relative;
+    top:30px;
+}
+.download{
+    font-size: 30px;
+    position: relative;
+    top:35px;
+    left:20px;
+}
+.inner-box{
+    display: flex;
+    flex-direction: column;
+}
+.video1{
+    height: 142px;
+    margin-left:30px;
+    position: relative;
+    bottom:290px;
+}
+.child{
+    height: 350px;
+    position: relative;
+    left:50px;
+    top:40px;
+}
+.child-content{
+    width:500px;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    height:770px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+}
+.ques{
+    display: flex;
+    height: 60px;
+    justify-content:space-between;
+    width:880px;
+    align-items: center;
+    font-size:25px;
+    background-color: rgb(71, 69, 69);
+}
+.plus{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-size:50px;
+    padding-bottom: 20px;
+}
+
+.ques:hover{
+    background-color: rgb(37, 36, 36);
+}
+.ques-content{
+    margin-left:20px;
+}
+.feed{
+    display: flex;
+    height:200px;
+    width: 100%;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+}
